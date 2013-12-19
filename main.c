@@ -2,7 +2,6 @@
 #include "list.h"
 #include "mytimer.h"
 #include <signal.h>
-#include "hashmap.h"
 #include "udptransport.h"
 
 void OnSvrConnect(void* pPtr, LPUDPTRANSPORT trans, int nErrorCode)

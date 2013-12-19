@@ -5,7 +5,6 @@ SOURCES=utils/list.c \
 		utils/udptransport.c \
 		utils/p2pcommon.c \
 		utils/mytimer.c \
-		utils/hashmap.c \
 	    main.c
         
 OBJECTS=$(SOURCES:.c=.o)
